@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Josefin+Sans&family=Press+Start+2P&family=Raleway:wght@300;400;700;800&family=Roboto:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials_container {
+  max-width: 768px;
+  background-color: darkorange;
+  padding: 2.5rem 6rem;
+  border-radius: 50px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  line-height: 1.6rem;
+}
+
+.user_image {
+  width: 75px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.testimonial {
+  margin-bottom: 2rem;
+}
+
+.user_info {
+  background-color: white;
+  width: fit-content;
+  padding: 0.8rem 2.4rem;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.username {
+  letter-spacing: 1px;
+}
+
+.progress_bar {
+  background-color: white;
+  height: 4px;
+  width: 100%;
+  margin-bottom: 1rem;
+  animation: grow 5s infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  /*   20% {
+        transform: scale(0.9);
+    }
+    60% {
+        transform: scale(0.6);
+    } */
+}
